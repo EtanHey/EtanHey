@@ -21,7 +21,12 @@ Finishing a Full Stack course. Experience as a logistics service manager • Hig
 
 
 
-Here are some ideas to get you started:
+<a href="https://github.com/EtanHey">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EtanHey&theme=React&show_icons=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EtanHey&theme=React&layout=compact" />
+
+</a>
+
 
 - 🔭 I’m currently working on finishing full stack course, and working on an internship project with a startup.
 - 🌱 I’m currently learning flutter, dart, leaflet and google places API.
@@ -29,5 +34,3 @@ Here are some ideas to get you started:
 - 🤔 I’m looking for help with google places API
 - 💬 Ask me about anything.
 - 📫 How to reach me: Etan@heyman.net.
-- ⚡ Fun fact: ...
--->
