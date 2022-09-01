@@ -13,6 +13,7 @@ Finishing a Full Stack course. Experience as a logistics service manager • Hig
 | `Axios`| `Express` | `Node.js` |
 | `MongoDb` | `MySQL` | `Cloudinary` |
 | `GitKraken` | `GitHub` | `GitLab` |
+| Adobe: | `Photoshop` | `Illustrator` |
 
 --------
 
