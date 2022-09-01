@@ -14,12 +14,13 @@ Finishing a Full Stack course. Experience as a logistics service manager • Hig
 | `MongoDb` | `MySQL` | `Cloudinary` |
 | `GitKraken` | `GitHub` | `GitLab` |
 
+--------
 
 ### 🔗 Links
 
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/etan-joseph-heyman-40b2a9240/)
 
-
+--------
 
 <a href="https://github.com/EtanHey">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EtanHey&theme=React&show_icons=true" />
@@ -27,6 +28,7 @@ Finishing a Full Stack course. Experience as a logistics service manager • Hig
 
 </a>
 
+---------
 
 - 🔭 I’m currently working on finishing full stack course, and working on an internship project with a startup.
 - 🌱 I’m currently learning flutter, dart, leaflet and google places API.
