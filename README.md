@@ -1,9 +1,8 @@
 
 # Hi, I'm Etan! 👋🏻
 
-Finishing a Full Stack course. Experience as a logistics service manager • Highly technologically oriented • Capable of quickly learning new technologies, meeting deadlines, working with multiple interfaces simultaneously, working in a team and independently • Looking for my next challenge in Full Stack • Highly motivated and eager to develop my skills.
+Finishing a Full Stack course. Experience as a logistics service manager • Highly technologically oriented • Capable of quickly learning new technologies, meeting deadlines, working with multiple interfaces simultaneously, working in a team and independently • Looking for my next challenge in Full Stack • Highly motivated and eager to develop my skills
 
-![Metrics](github-metrics.svg)
 
 |My| 💻 |Skills| 
 | - | - | - | 
