@@ -26,8 +26,9 @@ Finishing a Full Stack course. Experience as a logistics service manager • Hig
 <a href="https://github.com/EtanHey">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EtanHey&theme=React&show_icons=true" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EtanHey&theme=React&layout=compact" />
-
 </a>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=EtanHey&" alt="EtanHey's github streak" /></p>
 
 ---------
 
