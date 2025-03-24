@@ -1,6 +1,6 @@
 # Hi, I'm Etan! 👋🏻
 
-Full Stack Developer specializing in modern web technologies • Building responsive, accessible web applications • Experienced in creating dynamic user interfaces and robust backend systems • Previously worked as a logistics service manager • Quickly adapts to new technologies and frameworks • Passionate about clean, efficient code
+Full Stack Developer specializing in modern web technologies • Building responsive, accessible web applications • Experienced in creating dynamic user interfaces and robust backend systems  • Quickly adapts to new technologies and frameworks • Passionate about clean, efficient code
 
 ## 💻 Technologies & Skills
 
