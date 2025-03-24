@@ -1,39 +1,50 @@
-
 # Hi, I'm Etan! 👋🏻
 
-Finishing a Full Stack course. Experience as a logistics service manager • Highly technologically oriented • Capable of quickly learning new technologies, meeting deadlines, working with multiple interfaces simultaneously, working in a team and independently • Looking for my next challenge in Full Stack • Highly motivated and eager to develop my skills
+Full Stack Developer specializing in modern web technologies • Building responsive, accessible web applications • Experienced in creating dynamic user interfaces and robust backend systems • Previously worked as a logistics service manager • Quickly adapts to new technologies and frameworks • Passionate about clean, efficient code
 
+## 💻 Technologies & Skills
 
-|My| 💻 |Skills| 
-| - | - | - | 
-| `HTML` | `Typescript` | `Dart` |
-| `React` |`Redux` | `Flutter` |
-| `SCSS`| `Matirial UI` | `Framer Motion` |
-| `Leaflet` | `Socket.io` | `JWT`  |
-| `Axios`| `Express` | `Node.js` |
-| `MongoDb` | `MySQL` | `Cloudinary` |
-| `GitKraken` | `GitHub` | `GitLab` |
-| Adobe: | `Photoshop` | `Illustrator` |
+### Frontend
+`Next.js` `React` `TypeScript` `JavaScript` `HTML5` `CSS3` `Tailwind CSS` `Material UI` `Redux` `Framer Motion` `Vue` `Svelte`
+
+### Backend & Databases
+`Node.js` `Express` `MongoDB` `Mongoose` `MySQL` `Socket.io` `JWT` `AWS`
+
+### Mobile & Cross-platform
+`React Native` `Expo` `Flutter` `Dart`
+
+### Tools & Utilities
+`Git` `GitHub` `GitLab` `Postman` `Jest` `Cypress` `Axios` `Figma` `Jira` `npm` `Yarn` `Prettier` `Leaflet`
+
+### Design
+`Figma` `Adobe Photoshop` `Adobe Illustrator`
 
 --------
 
-### 🔗 Links
+## 🔭 Current Projects
 
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/etan-joseph-heyman-40b2a9240/)
+- **Personal Portfolio Website** - Building etanheyman.com using Next.js 15+, React 19, and Tailwind CSS v4 with custom animations and responsive design
+- **Full Stack Applications** - Developing applications with modern JavaScript frameworks and serverless architecture
+
+--------
+
+## 🌱 Learning & Interests
+
+- Exploring advanced animation techniques with CSS Scroll-Driven Animations
+- Optimizing performance in React applications
+- Building accessible web experiences
+- Creating efficient data visualization solutions
+
+--------
+
+### 🔗 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/etan-joseph-heyman-40b2a9240/)
+[![Email](https://img.shields.io/badge/Email-Etan%40heyman.net-blue?style=flat-square)](mailto:Etan@heyman.net)
 
 --------
 
 <a href="https://github.com/EtanHey">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EtanHey&theme=React&show_icons=true" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EtanHey&theme=React&layout=compact" />
-
 </a>
-
----------
-
-- 🔭 I’m currently working on finishing full stack course, and working on an internship project with a startup.
-- 🌱 I’m currently learning flutter, dart, leaflet and google places API.
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with google places API
-- 💬 Ask me about anything.
-- 📫 How to reach me: Etan@heyman.net.
