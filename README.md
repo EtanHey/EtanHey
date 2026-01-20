@@ -57,7 +57,3 @@ I'm currently part of [@Cantaloupe-AI](https://github.com/Cantaloupe-AI).
   <img src="https://github-readme-stats.vercel.app/api?username=EtanHey&show_icons=true&theme=default&hide_border=true&count_private=true" alt="Etan's GitHub stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EtanHey&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
 </p>
-
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=EtanHey&theme=default&hide_border=true" alt="GitHub Streak" />
-</p>
