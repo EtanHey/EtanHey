@@ -10,6 +10,7 @@ I'm currently part of [@Cantaloupe-AI](https://github.com/Cantaloupe-AI).
 
 - **[SongScript](https://github.com/EtanHey/songscript)** — Learn to read and pronounce songs through line-by-line transliteration
 - **[Hand Sign Detection](https://github.com/EtanHey/hand-sign-detection)** — Computer vision project using YOLO for hand gesture recognition (👌, 👍, ✌️)
+- **[Bank Activity Parser](https://github.com/EtanHey/bank-activity-parser)** — Upload bank statement CSVs and view transactions in a sortable, interactive table
 - **[Mayart Candles](https://github.com/WebyCreatorsTeam/mayart-candles)** — E-commerce site for a candle business
 - **[Sharon Fitness](https://github.com/WebyCreatorsTeam/sharon-fitness)** — Personal trainer website built with Next.js & Tailwind
 - **[etanheyman.com](https://github.com/EtanHey/etanheyman.com)** — My portfolio site (Next.js 15, React 19, Tailwind v4)
