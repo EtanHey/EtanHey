@@ -8,6 +8,7 @@ I'm currently part of [@Cantaloupe-AI](https://github.com/Cantaloupe-AI).
 
 ### Things I've built that you might find interesting:
 
+- **[Claude Golem](https://github.com/EtanHey/claude-golem)** — AI agent orchestration toolkit for autonomous PRD execution with Claude Code
 - **[SongScript](https://github.com/EtanHey/songscript)** — Learn to read and pronounce songs through line-by-line transliteration
 - **[Hand Sign Detection](https://github.com/EtanHey/hand-sign-detection)** — Computer vision project using YOLO for hand gesture recognition (👌, 👍, ✌️)
 - **[Bank Activity Parser](https://github.com/EtanHey/bank-activity-parser)** — Upload bank statement CSVs and view transactions in a sortable, interactive table
