@@ -21,7 +21,7 @@ I spend a lot of time thinking about how to make AI actually useful for shipping
 | Project | Stack | What it does |
 |---------|-------|--------------|
 | **Union** | Next.js, React Native, Supabase | Real estate platform (647 commits) |
-| **Domica** | Next.js, Expo, Supabase | Property platform (stealth) |
+| **Private** | Next.js, Expo, Supabase | Property platform (stealth) |
 | **[SongScript](https://github.com/EtanHey/songscript)** | TanStack Start, Convex, React 19 | Learn languages through music with line-by-line transliteration |
 
 ---
