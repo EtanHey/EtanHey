@@ -20,7 +20,7 @@ I spend a lot of time thinking about how to make AI actually useful for shipping
 
 | Project | Stack | What it does |
 |---------|-------|--------------|
-| **Union** | Next.js, React Native, Supabase | Real estate platform (647 commits) |
+| **[Cantaloupe AI](https://trycantaloupe.com)** | Next.js, React Native, Supabase | AI-powered platform (647 commits) |
 | **Private** | Next.js, Expo, Supabase | Property platform (stealth) |
 | **[SongScript](https://github.com/EtanHey/songscript)** | TanStack Start, Convex, React 19 | Learn languages through music with line-by-line transliteration |
 
@@ -56,7 +56,7 @@ I spend a lot of time thinking about how to make AI actually useful for shipping
 ## About the Contribution Graph
 
 The green squares mostly come from:
-- **Union** — 647 commits on the real estate platform
+- **Cantaloupe AI** — 647 commits on trycantaloupe.com
 - **Domica** — Active development (private)
 - **Golems** — Ralph, Zikaron, and the autonomous bot system
 - **Client work** — Various private repos
