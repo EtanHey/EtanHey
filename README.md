@@ -1,60 +1,73 @@
-# Hey, I'm Etan! 👋
+# Hey, I'm Etan
 
-I'm a Full Stack Developer based in Rehovot, Israel. I build web apps, experiment with AI, and care way too much about getting the UX right.
-
-I'm currently part of [@Cantaloupe-AI](https://github.com/Cantaloupe-AI).
+Full stack developer in Israel. I build products and occasionally let AI build them for me.
 
 ---
 
-### Things I've built that you might find interesting:
+## What I'm Building
 
-- **[SongScript](https://github.com/EtanHey/songscript)** — Learn to read and pronounce songs through line-by-line transliteration
-- **[Hand Sign Detection](https://github.com/EtanHey/hand-sign-detection)** — Computer vision project using YOLO for hand gesture recognition (👌, 👍, ✌️)
-- **[Bank Activity Parser](https://github.com/EtanHey/bank-activity-parser)** — Upload bank statement CSVs and view transactions in a sortable, interactive table
-- **[Mayart Candles](https://github.com/WebyCreatorsTeam/mayart-candles)** — E-commerce site for a candle business
-- **[Sharon Fitness](https://github.com/WebyCreatorsTeam/sharon-fitness)** — Personal trainer website built with Next.js & Tailwind
-- **[etanheyman.com](https://github.com/EtanHey/etanheyman.com)** — My portfolio site (Next.js 15, React 19, Tailwind v4)
+### The Golems Ecosystem
 
----
+I spend a lot of time thinking about how to make AI actually useful for shipping code. This led to building a suite of tools:
 
-### Currently working on (private repos*):
+**[Ralph](https://github.com/EtanHey/claude-golem)** — An autonomous engineering loop for Claude Code. Give it a PRD, it executes stories, self-corrects, and notifies you when done. Smart model routing (Opus for planning, Sonnet for implementation, Haiku for verification), cost tracking, worktree isolation. It's how I ship most of my code now.
 
-| Project | What it does |
-|---------|--------------|
-| ⭐ **Private Project** | Full-stack property management platform with admin dashboard |
-| ⭐ **[Cantaloupe](https://github.com/Cantaloupe-AI)** | AI-powered hospitality hiring platform — [trycantaloupe.com](https://trycantaloupe.com) (2,300+ commits) |
-| ⭐ **Private Project** | Multi-site overhaul for an influencer — websites + e-commerce |
+**[Zikaron](https://github.com/EtanHey/zikaron)** — Memory layer that indexes Claude Code conversations into a searchable knowledge base. Extracts patterns from your past sessions so you don't solve the same problems twice.
 
-*These are private — happy to discuss in conversation!
+**Autonomous Bots** — Telegram integration for Ralph notifications + an experimental Ollama-based "digital presence" that can work autonomously during off-hours.
 
----
+### Active Projects
 
-### Tech I work with:
-
-**Frontend:** React, Next.js, TypeScript, Tailwind CSS, Framer Motion, Vue, Svelte
-
-**Backend:** Node.js, Express, MongoDB, PostgreSQL, Convex
-
-**Mobile:** React Native, Expo, Flutter, Dart
-
-**Tools:** Git, GitHub, Figma, Jest, Cypress
+| Project | Stack | What it does |
+|---------|-------|--------------|
+| **Union** | Next.js, React Native, Supabase | Real estate platform (647 commits) |
+| **Domica** | Next.js, Expo, Supabase | Property platform (stealth) |
+| **[SongScript](https://github.com/EtanHey/songscript)** | TanStack Start, Convex, React 19 | Learn languages through music with line-by-line transliteration |
 
 ---
 
-### Let's connect:
+## Open Source
+
+- **[SongScript](https://github.com/EtanHey/songscript)** — Language learning through music. Synchronized lyrics, word breakdowns, progress tracking.
+- **[Claude Golem (Ralph)](https://github.com/EtanHey/claude-golem)** — The autonomous AI coding loop. Spec-driven, self-correcting, cost-aware.
+- **[Hand Sign Detection](https://github.com/EtanHey/hand-sign-detection)** — YOLO-based gesture recognition
+- **[Bank Activity Parser](https://github.com/EtanHey/bank-activity-parser)** — Parse and view bank statements
+- **[etanheyman.com](https://github.com/EtanHey/etanheyman.com)** — My portfolio (Next.js 15, React 19, Tailwind v4)
+
+---
+
+## Stack
+
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-000020?style=flat&logo=expo&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
+![Convex](https://img.shields.io/badge/Convex-FF6B6B?style=flat)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=flat&logo=gnu-bash&logoColor=white)
+![Bun](https://img.shields.io/badge/Bun-000000?style=flat&logo=bun&logoColor=white)
+
+---
+
+## About the Contribution Graph
+
+The green squares mostly come from:
+- **Union** — 647 commits on the real estate platform
+- **Domica** — Active development (private)
+- **Golems** — Ralph, Zikaron, and the autonomous bot system
+- **Client work** — Various private repos
+
+Most of the interesting work lives in private repos. Happy to discuss in conversation.
+
+---
+
+## Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/etanheyman)
 [![Email](https://img.shields.io/badge/Email-etan@heyman.net-blue?style=flat)](mailto:etan@heyman.net)
 [![Website](https://img.shields.io/badge/Website-etanheyman.com-green?style=flat)](https://etanheyman.com)
-
-[![WhatsApp US](https://img.shields.io/badge/WhatsApp_US-+1_717_962_9684-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/17179629684)
-[![WhatsApp IL](https://img.shields.io/badge/WhatsApp_IL-+972_54_758_9755-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/972547589755)
-
----
-
-### 📊 GitHub Stats
-
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=EtanHey&show_icons=true&theme=default&hide_border=true&count_private=true" alt="Etan's GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EtanHey&layout=compact&theme=default&hide_border=true" alt="Top Languages" />
-</p>
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/972547589755)
