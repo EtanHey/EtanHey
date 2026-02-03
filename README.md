@@ -10,9 +10,9 @@ Full stack developer in Israel. I build products and occasionally let AI build t
 
 I spend a lot of time thinking about how to make AI actually useful for shipping code. This led to building a suite of tools:
 
-**[Ralph](https://github.com/EtanHey/claude-golem)** — An autonomous engineering loop for Claude Code. Give it a PRD, it executes stories, self-corrects, and notifies you when done. Smart model routing (Opus for planning, Sonnet for implementation, Haiku for verification), cost tracking, worktree isolation. It's how I ship most of my code now.
+**[Ralph](https://github.com/EtanHey/golems/tree/main/packages/ralph)** — An autonomous engineering loop for Claude Code. Give it a PRD, it executes stories, self-corrects, and notifies you when done. Smart model routing (Opus for planning, Sonnet for implementation, Haiku for verification), cost tracking, worktree isolation. It's how I ship most of my code now.
 
-**[Zikaron](https://github.com/EtanHey/zikaron)** — Memory layer that indexes Claude Code conversations into a searchable knowledge base. Extracts patterns from your past sessions so you don't solve the same problems twice.
+**[Zikaron](https://github.com/EtanHey/golems/tree/main/packages/zikaron)** — Memory layer that indexes Claude Code conversations into a searchable knowledge base. Extracts patterns from your past sessions so you don't solve the same problems twice.
 
 **Autonomous Bots** — Telegram integration for Ralph notifications + an experimental Ollama-based "digital presence" that can work autonomously during off-hours.
 
@@ -20,6 +20,7 @@ I spend a lot of time thinking about how to make AI actually useful for shipping
 
 | Project | Stack | What it does |
 |---------|-------|--------------|
+| **[Golems](https://github.com/EtanHey/golems)** | TypeScript, Bun, Python | AI coding ecosystem — Ralph, Zikaron, autonomous bots |
 | **[Cantaloupe AI](https://trycantaloupe.com)** | Next.js, React Native, Supabase | Automated hiring platform — AI conducts voice interviews 24/7 |
 | **Private** | Next.js, Expo, Supabase | Property platform (stealth) |
 | **[SongScript](https://github.com/EtanHey/songscript)** | TanStack Start, Convex, React 19 | Learn languages through music with line-by-line transliteration |
@@ -29,7 +30,7 @@ I spend a lot of time thinking about how to make AI actually useful for shipping
 ## Open Source
 
 - **[SongScript](https://github.com/EtanHey/songscript)** — Language learning through music. Synchronized lyrics, word breakdowns, progress tracking.
-- **[Claude Golem (Ralph)](https://github.com/EtanHey/claude-golem)** — The autonomous AI coding loop. Spec-driven, self-correcting, cost-aware.
+- **[Golems (Ralph + Zikaron)](https://github.com/EtanHey/golems)** — The autonomous AI coding ecosystem. Spec-driven, self-correcting, with memory.
 - **[Hand Sign Detection](https://github.com/EtanHey/hand-sign-detection)** — YOLO-based gesture recognition
 - **[Bank Activity Parser](https://github.com/EtanHey/bank-activity-parser)** — Parse and view bank statements
 - **[etanheyman.com](https://github.com/EtanHey/etanheyman.com)** — My portfolio (Next.js 15, React 19, Tailwind v4)
@@ -57,7 +58,7 @@ I spend a lot of time thinking about how to make AI actually useful for shipping
 
 The green squares mostly come from:
 - **[Cantaloupe AI](https://trycantaloupe.com)** — Automated hiring with AI voice interviews
-- **Domica** — Active development (private)
+- **Private project** — Active development (stealth)
 - **Golems** — Ralph, Zikaron, and the autonomous bot system
 - **Client work** — Various private repos
 
