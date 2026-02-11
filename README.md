@@ -6,21 +6,35 @@ Full stack developer in Israel. I build products and occasionally let AI build t
 
 ## What I'm Building
 
-### The Golems Ecosystem
+### [Golems](https://github.com/EtanHey/golems) — AI Agent Ecosystem
 
-I spend a lot of time thinking about how to make AI actually useful for shipping code. This led to building a suite of tools:
+A Bun workspace monorepo of domain-expert AI agents, each a self-contained **Claude Code plugin**. Install one into any Claude session — it brings its skills, rules, MCP tools, and context automatically.
 
-**[Ralph](https://github.com/EtanHey/golems/tree/main/packages/ralph)** — An autonomous engineering loop for Claude Code. Give it a PRD, it executes stories, self-corrects, and notifies you when done. Smart model routing (Opus for planning, Sonnet for implementation, Haiku for verification), cost tracking, worktree isolation. It's how I ship most of my code now.
+**5 domain golems** + orchestrator + infrastructure:
 
-**[Zikaron](https://github.com/EtanHey/golems/tree/main/packages/zikaron)** — Memory layer that indexes Claude Code conversations into a searchable knowledge base. Extracts patterns from your past sessions so you don't solve the same problems twice.
+| Golem | Domain |
+|-------|--------|
+| **RecruiterGolem** | Outreach campaigns, contact discovery, 7 interview practice modes with Elo tracking |
+| **TellerGolem** | Transaction categorization for tax, payment alerts, expense reports |
+| **CoachGolem** | Calendar management, daily plans, cross-golem status |
+| **JobGolem** | Board scraping (Indeed, SecretTLV, Drushim, Goozali), LLM scoring, auto-outreach |
+| **ContentGolem** | LinkedIn posts, Hebrew tech ghostwriting |
 
-**Autonomous Bots** — Telegram integration for Ralph notifications + an experimental Ollama-based "digital presence" that can work autonomously during off-hours.
+**Also includes:**
+- **[Ralph](https://github.com/EtanHey/golems/tree/master/packages/ralph)** — Autonomous coding loop. PRD in, shipped code out. Smart model routing, cost tracking, worktree isolation.
+- **[Zikaron](https://github.com/EtanHey/golems/tree/master/packages/zikaron)** — Memory layer. 238K+ conversation chunks indexed with sqlite-vec + bge-large-en-v1.5 embeddings. Search your past sessions.
+- **30+ skills**, 6 MCP servers, 7 agent profiles, exportable rules library
+- **1,179 tests** (4,056 assertions)
+
+Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (email polling, job scraping, briefings).
+
+**[Live docs](https://etanheyman.com/golems/)**
 
 ### Active Projects
 
 | Project | Stack | What it does |
 |---------|-------|--------------|
-| **[Golems](https://github.com/EtanHey/golems)** | TypeScript, Bun, Python | AI coding ecosystem — Ralph, Zikaron, autonomous bots |
+| **[Golems](https://github.com/EtanHey/golems)** | TypeScript, Bun, Python | AI agent ecosystem — 10 packages, 5 domain golems |
 | **[Cantaloupe AI](https://trycantaloupe.com)** | Next.js, React Native, Supabase | Automated hiring platform — AI conducts voice interviews 24/7 |
 | **Private** | Next.js, Expo, Supabase | Property platform (stealth) |
 | **[SongScript](https://github.com/EtanHey/songscript)** | TanStack Start, Convex, React 19 | Learn languages through music with line-by-line transliteration |
@@ -29,8 +43,8 @@ I spend a lot of time thinking about how to make AI actually useful for shipping
 
 ## Open Source
 
+- **[Golems](https://github.com/EtanHey/golems)** — AI agent ecosystem. Domain-expert golems as Claude Code plugins, autonomous coding loop, semantic memory.
 - **[SongScript](https://github.com/EtanHey/songscript)** — Language learning through music. Synchronized lyrics, word breakdowns, progress tracking.
-- **[Golems (Ralph + Zikaron)](https://github.com/EtanHey/golems)** — The autonomous AI coding ecosystem. Spec-driven, self-correcting, with memory.
 - **[Hand Sign Detection](https://github.com/EtanHey/hand-sign-detection)** — YOLO-based gesture recognition
 - **[Bank Activity Parser](https://github.com/EtanHey/bank-activity-parser)** — Parse and view bank statements
 - **[etanheyman.com](https://github.com/EtanHey/etanheyman.com)** — My portfolio (Next.js 15, React 19, Tailwind v4)
@@ -59,7 +73,7 @@ I spend a lot of time thinking about how to make AI actually useful for shipping
 The green squares mostly come from:
 - **[Cantaloupe AI](https://trycantaloupe.com)** — Automated hiring with AI voice interviews
 - **Private project** — Active development (stealth)
-- **Golems** — Ralph, Zikaron, and the autonomous bot system
+- **Golems** — The AI agent ecosystem
 - **Client work** — Various private repos
 
 Most of the interesting work lives in private repos. Happy to discuss in conversation.
