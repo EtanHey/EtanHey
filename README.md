@@ -22,9 +22,9 @@ A Bun workspace monorepo of domain-expert AI agents, each a self-contained **Cla
 
 **Also includes:**
 - **[Ralph](https://github.com/EtanHey/golems/tree/master/packages/ralph)** — Autonomous coding loop. PRD in, shipped code out. Smart model routing, cost tracking, worktree isolation.
-- **[Zikaron](https://github.com/EtanHey/golems/tree/master/packages/zikaron)** — Memory layer. 238K+ conversation chunks indexed with sqlite-vec + bge-large-en-v1.5 embeddings. Search your past sessions.
+- **[BrainLayer (formerly Zikaron)](https://github.com/EtanHey/golems/tree/master/packages/zikaron)** — Memory layer. 328K+ indexed chunks with sqlite-vec + bge-large-en-v1.5 embeddings, knowledge graph, and 7 MCP tools. Search your past sessions.
 - **30+ skills**, 6 MCP servers, 7 agent profiles, exportable rules library
-- **1,179 tests** (4,056 assertions)
+- **1,196 tests** (4,056 assertions)
 
 Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (email polling, job scraping, briefings).
 
@@ -36,6 +36,7 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 |---------|-------|--------------|
 | **[Golems](https://github.com/EtanHey/golems)** | TypeScript, Bun, Python | AI agent ecosystem — 10 packages, 5 domain golems |
 | **[Cantaloupe AI](https://trycantaloupe.com)** | Next.js, React Native, Supabase | Automated hiring platform — AI conducts voice interviews 24/7 |
+| **6PM** | Convex, React, Claude Sonnet | AI-powered meeting preparation. Two-panel UI with real-time orchestrator. BrainLayer integration for persistent context. |
 | **Private** | Next.js, Expo, Supabase | Property platform (stealth) |
 | **[SongScript](https://github.com/EtanHey/songscript)** | TanStack Start, Convex, React 19 | Learn languages through music with line-by-line transliteration |
 
@@ -54,6 +55,7 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 ## Stack
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat&logo=react&logoColor=black)
@@ -61,6 +63,8 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white)
 ![Convex](https://img.shields.io/badge/Convex-FF6B6B?style=flat)
+![Claude API](https://img.shields.io/badge/Claude_API-111111?style=flat&logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-5A67D8?style=flat)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
 ![Zsh](https://img.shields.io/badge/Zsh-F15A24?style=flat&logo=gnu-bash&logoColor=white)
