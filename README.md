@@ -22,7 +22,8 @@ A Bun workspace monorepo of domain-expert AI agents, each a self-contained **Cla
 
 **Also includes:**
 - **[Ralph](https://github.com/EtanHey/golems/tree/master/packages/ralph)** — Autonomous coding loop. PRD in, shipped code out. Smart model routing, cost tracking, worktree isolation.
-- **[BrainLayer (formerly Zikaron)](https://github.com/EtanHey/golems/tree/master/packages/zikaron)** — Memory layer. 328K+ indexed chunks with sqlite-vec + bge-large-en-v1.5 embeddings, knowledge graph, and 7 MCP tools. Search your past sessions.
+- **[BrainLayer](https://etanheyman.com/projects/brainlayer)** — Memory layer. 328K+ indexed chunks, knowledge graph with 43 entities, and 7 MCP tools. [Source](https://github.com/EtanHey/brainlayer) · [Docs](https://etanheyman.com/projects/brainlayer)
+- **[VoiceLayer](https://etanheyman.com/projects/voicelayer)** — Voice I/O for Claude Code. 2 MCP tools (TTS + STT), voice cloning, ~300ms latency. [Source](https://github.com/EtanHey/voicelayer) · [Docs](https://etanhey.github.io/voicelayer/)
 - **30+ skills**, 6 MCP servers, 7 agent profiles, exportable rules library
 - **1,196 tests** (4,056 assertions)
 
@@ -34,8 +35,11 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 
 | Project | Stack | What it does |
 |---------|-------|--------------|
-| **[Golems](https://github.com/EtanHey/golems)** | TypeScript, Bun, Python | AI agent ecosystem — 10 packages, 5 domain golems |
+| **[Golems](https://github.com/EtanHey/golems)** | TypeScript, Bun, Python | AI agent ecosystem — 16 packages, 5 domain golems |
+| **[BrainLayer](https://etanheyman.com/projects/brainlayer)** | Python, SQLite, MCP | Persistent memory for AI agents — 328K+ chunks, 7 MCP tools, knowledge graph |
+| **[VoiceLayer](https://etanheyman.com/projects/voicelayer)** | TypeScript, Bun, MCP | Voice I/O for Claude Code — TTS + STT, voice cloning, ~300ms |
 | **[Cantaloupe AI](https://trycantaloupe.com)** | Next.js, React Native, Supabase | Automated hiring platform — AI conducts voice interviews 24/7 |
+| **6PM** | Convex, React, Claude Sonnet | AI meeting prep — two-panel UI, real-time orchestrator, BrainLayer memory |
 | **Private** | Next.js, Expo, Supabase | Property platform (stealth) |
 | **[SongScript](https://github.com/EtanHey/songscript)** | TanStack Start, Convex, React 19 | Learn languages through music with line-by-line transliteration |
 
