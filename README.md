@@ -36,7 +36,6 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 |---------|-------|--------------|
 | **[Golems](https://github.com/EtanHey/golems)** | TypeScript, Bun, Python | AI agent ecosystem — 10 packages, 5 domain golems |
 | **[Cantaloupe AI](https://trycantaloupe.com)** | Next.js, React Native, Supabase | Automated hiring platform — AI conducts voice interviews 24/7 |
-| **6PM** | Convex, React, Claude Sonnet | AI-powered meeting preparation. Two-panel UI with real-time orchestrator. BrainLayer integration for persistent context. |
 | **Private** | Next.js, Expo, Supabase | Property platform (stealth) |
 | **[SongScript](https://github.com/EtanHey/songscript)** | TanStack Start, Convex, React 19 | Learn languages through music with line-by-line transliteration |
 
