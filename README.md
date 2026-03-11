@@ -8,7 +8,7 @@ Full stack developer in Israel. I build products and occasionally let AI build t
 
 ### [Golems](https://github.com/EtanHey/golems) — AI Agent Ecosystem
 
-A Bun workspace monorepo of domain-expert AI agents, each a self-contained **Claude Code plugin**. Install one into any Claude session — it brings its skills, rules, MCP tools, and context automatically.
+A Bun workspace monorepo of domain-expert AI agents — not locked to any single AI platform. Each agent is a self-contained **skill package** that works across Claude Code, Codex, Cursor, Gemini, and Kiro.
 
 **5 domain golems** + orchestrator + infrastructure:
 
@@ -22,10 +22,10 @@ A Bun workspace monorepo of domain-expert AI agents, each a self-contained **Cla
 
 **Also includes:**
 - **[Ralph](https://github.com/EtanHey/golems/tree/master/packages/ralph)** — Autonomous coding loop. PRD in, shipped code out. Smart model routing, cost tracking, worktree isolation.
-- **[BrainLayer](https://etanheyman.com/projects/brainlayer)** — Memory layer. 328K+ indexed chunks, knowledge graph with 43 entities, and 7 MCP tools. [Source](https://github.com/EtanHey/brainlayer) · [Docs](https://etanheyman.com/projects/brainlayer)
+- **[BrainLayer](https://etanheyman.com/projects/brainlayer)** — Memory layer. 295K+ indexed chunks, knowledge graph with 119 entities, and 7 MCP tools. [Source](https://github.com/EtanHey/brainlayer) · [Docs](https://etanheyman.com/projects/brainlayer)
 - **[VoiceLayer](https://etanheyman.com/projects/voicelayer)** — Voice I/O for Claude Code. 2 MCP tools (TTS + STT), voice cloning, ~300ms latency. [Source](https://github.com/EtanHey/voicelayer) · [Docs](https://etanhey.github.io/voicelayer/)
-- **30+ skills**, 6 MCP servers, 7 agent profiles, exportable rules library
-- **1,196 tests** (4,056 assertions)
+- **60 skills** with AI-agnostic adapters (tested across Codex, Gemini, Kiro), 6 MCP servers, 7 agent profiles
+- **1,073 tests** across the monorepo
 
 Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (email polling, job scraping, briefings).
 
@@ -35,8 +35,8 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 
 | Project | Stack | What it does |
 |---------|-------|--------------|
-| **[Golems](https://github.com/EtanHey/golems)** | TypeScript, Bun, Python | AI agent ecosystem — 16 packages, 5 domain golems |
-| **[BrainLayer](https://etanheyman.com/projects/brainlayer)** | Python, SQLite, MCP | Persistent memory for AI agents — 328K+ chunks, 7 MCP tools, knowledge graph |
+| **[Golems](https://github.com/EtanHey/golems)** | TypeScript, Bun, Python | AI agent ecosystem — 16 packages, 5 domain golems, 60 AI-agnostic skills |
+| **[BrainLayer](https://etanheyman.com/projects/brainlayer)** | Python, SQLite, MCP | Persistent memory for AI agents — 295K+ chunks, 7 MCP tools, 119-entity knowledge graph |
 | **[VoiceLayer](https://etanheyman.com/projects/voicelayer)** | TypeScript, Bun, MCP | Voice I/O for Claude Code — TTS + STT, voice cloning, ~300ms |
 | **[Cantaloupe AI](https://trycantaloupe.com)** | Next.js, React Native, Supabase | Automated hiring platform — AI conducts voice interviews 24/7 |
 | **6PM** | Convex, React, Claude Sonnet | AI meeting prep — two-panel UI, real-time orchestrator, BrainLayer memory |
@@ -47,7 +47,7 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 
 ## Open Source
 
-- **[Golems](https://github.com/EtanHey/golems)** — AI agent ecosystem. Domain-expert golems as Claude Code plugins, autonomous coding loop, semantic memory.
+- **[Golems](https://github.com/EtanHey/golems)** — AI agent ecosystem. Domain-expert golems as skill packages, autonomous coding loop, semantic memory. AI-agnostic — works with Claude, Codex, Cursor, Gemini, Kiro.
 - **[SongScript](https://github.com/EtanHey/songscript)** — Language learning through music. Synchronized lyrics, word breakdowns, progress tracking.
 - **[Hand Sign Detection](https://github.com/EtanHey/hand-sign-detection)** — YOLO-based gesture recognition
 - **[Bank Activity Parser](https://github.com/EtanHey/bank-activity-parser)** — Parse and view bank statements
