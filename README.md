@@ -47,11 +47,28 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 
 ## Open Source
 
-- **[Golems](https://github.com/EtanHey/golems)** — AI agent ecosystem. Domain-expert golems as skill packages, autonomous coding loop, semantic memory. AI-agnostic — works with Claude, Codex, Cursor, Gemini, Kiro.
-- **[SongScript](https://github.com/EtanHey/songscript)** — Language learning through music. Synchronized lyrics, word breakdowns, progress tracking.
-- **[Hand Sign Detection](https://github.com/EtanHey/hand-sign-detection)** — YOLO-based gesture recognition
-- **[Bank Activity Parser](https://github.com/EtanHey/bank-activity-parser)** — Parse and view bank statements
-- **[etanheyman.com](https://github.com/EtanHey/etanheyman.com)** — My portfolio (Next.js 15, React 19, Tailwind v4)
+### My Repos
+
+| Repo | License | What |
+|------|---------|------|
+| **[Golems](https://github.com/EtanHey/golems)** | Apache 2.0 | AI agent ecosystem — domain-expert golems as skill packages, autonomous coding loop, semantic memory |
+| **[BrainLayer](https://github.com/EtanHey/brainlayer)** | Apache 2.0 | Persistent memory for AI agents — 328K+ chunks, knowledge graph, 14 MCP tools |
+| **[VoiceLayer](https://github.com/EtanHey/voicelayer)** | Apache 2.0 | Voice I/O for Claude Code — TTS + STT, voice cloning, Hebrew-first dictation |
+| **[cmuxlayer](https://github.com/EtanHey/cmuxlayer)** | Apache 2.0 | Terminal multiplexer MCP — multi-agent workspace orchestration |
+| **[SongScript](https://github.com/EtanHey/songscript)** | Apache 2.0 | Language learning through music — synchronized lyrics, word breakdowns |
+| **[etanheyman.com](https://github.com/EtanHey/etanheyman.com)** | Apache 2.0 | Portfolio site (Next.js 15, React 19, Tailwind v4) |
+
+### Contributions to Other Projects
+
+| PR | Repo | Status | What |
+|----|------|--------|------|
+| [#1096](https://github.com/pingdotgg/t3code/pull/1096) | pingdotgg/t3code | Merged | Fix: tighten node engine range for node:sqlite compat |
+| [#4749](https://github.com/zed-industries/extensions/pull/4749) | zed-industries/extensions | Merged | Add iTerm2 default theme |
+| [#1522](https://github.com/manaflow-ai/cmux/pull/1522) | manaflow-ai/cmux | Open | Fix: background workspace PTY initialization |
+| [#181](https://github.com/lharries/whatsapp-mcp/pull/181) | lharries/whatsapp-mcp | Open | Fix: Unicode-safe chat search + auto-detect business bridge DB |
+| [#58](https://github.com/Harzu/iced_term/pull/58) | Harzu/iced_term | Open | Feat: public backend module + async PTY shutdown |
+| [#2218](https://github.com/punkpeye/awesome-mcp-servers/pull/2218) | punkpeye/awesome-mcp-servers | Open | Add BrainLayer to Knowledge & Memory |
+| [#2217](https://github.com/punkpeye/awesome-mcp-servers/pull/2217) | punkpeye/awesome-mcp-servers | Open | Add VoiceLayer voice I/O MCP |
 
 ---
 
