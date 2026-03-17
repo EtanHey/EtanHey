@@ -41,7 +41,6 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 | **[VoiceLayer](https://etanheyman.com/projects/voicelayer)** | TypeScript, Bun, MCP | Voice I/O MCP daemon — dual-protocol, TTS + STT, voice cloning, ~300ms |
 | **[cmuxlayer](https://github.com/EtanHey/cmuxlayer)** | Swift, TypeScript, MCP | Terminal multiplexer MCP — 221 tests, 1,423x socket speedup |
 | **[Cantaloupe AI](https://trycantaloupe.com)** | Next.js, React Native, Supabase | Automated hiring platform — AI conducts voice interviews 24/7 |
-| **6PM** | Convex, React, Claude Sonnet | AI meeting prep — two-panel UI, real-time orchestrator, BrainLayer memory |
 | **Private** | Next.js, Expo, Supabase | Property platform (stealth) |
 | **[SongScript](https://github.com/EtanHey/songscript)** | TanStack Start, Convex, React 19 | Learn languages through music with line-by-line transliteration |
 
@@ -65,7 +64,7 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 | PR | Repo | Status | What |
 |----|------|--------|------|
 | [#206](https://github.com/pingdotgg/t3code/pull/206) | pingdotgg/t3code | Merged | Fix: tighten node engine range for node:sqlite compat |
-| [#181](https://github.com/lharries/whatsapp-mcp/pull/181) | lharries/whatsapp-mcp | Merged | Fix: Unicode-safe chat search + auto-detect business bridge DB |
+| [#181](https://github.com/lharries/whatsapp-mcp/pull/181) | lharries/whatsapp-mcp | Open | Fix: Unicode-safe chat search + auto-detect business bridge DB |
 | [#4749](https://github.com/zed-industries/extensions/pull/4749) | zed-industries/extensions | Merged | Add iTerm2 default theme |
 | [#1522](https://github.com/manaflow-ai/cmux/pull/1522) | manaflow-ai/cmux | Open | Fix: background workspace PTY initialization |
 | [#1562](https://github.com/manaflow-ai/cmux/pull/1562) | manaflow-ai/cmux | Open | Fix: thread starvation in MCP server |
