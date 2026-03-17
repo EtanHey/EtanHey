@@ -10,7 +10,7 @@ Full stack developer in Israel. I build products and occasionally let AI build t
 
 A Bun workspace monorepo of domain-expert AI agents — not locked to any single AI platform. Each agent is a self-contained **skill package** that works across Claude Code, Codex, Cursor, Gemini, and Kiro.
 
-**5 domain golems** + orchestrator + infrastructure:
+**5 domain golems** + orchestrator + 3 infrastructure daemons:
 
 | Golem | Domain |
 |-------|--------|
@@ -22,10 +22,11 @@ A Bun workspace monorepo of domain-expert AI agents — not locked to any single
 
 **Also includes:**
 - **[Ralph](https://github.com/EtanHey/golems/tree/master/packages/ralph)** — Autonomous coding loop. PRD in, shipped code out. Smart model routing, cost tracking, worktree isolation.
-- **[BrainLayer](https://etanheyman.com/projects/brainlayer)** — Memory layer. 295K+ indexed chunks, knowledge graph with 119 entities, and 7 MCP tools. [Source](https://github.com/EtanHey/brainlayer) · [Docs](https://etanheyman.com/projects/brainlayer)
-- **[VoiceLayer](https://etanheyman.com/projects/voicelayer)** — Voice I/O for Claude Code. 2 MCP tools (TTS + STT), voice cloning, ~300ms latency. [Source](https://github.com/EtanHey/voicelayer) · [Docs](https://etanhey.github.io/voicelayer/)
-- **60 skills** with AI-agnostic adapters (tested across Codex, Gemini, Kiro), 6 MCP servers, 7 agent profiles
-- **1,073 tests** across the monorepo
+- **[BrainLayer](https://etanheyman.com/projects/brainlayer)** — Memory layer. 312K+ indexed chunks, knowledge graph, 8 MCP tools, BrainBar daemon (209KB native macOS binary). [Source](https://github.com/EtanHey/brainlayer) · [Docs](https://etanheyman.com/projects/brainlayer)
+- **[VoiceLayer](https://etanheyman.com/projects/voicelayer)** — Voice I/O MCP daemon with dual-protocol (NDJSON + MCP Content-Length). TTS + STT, voice cloning, ~300ms latency. [Source](https://github.com/EtanHey/voicelayer) · [Docs](https://etanhey.github.io/voicelayer/)
+- **[cmuxlayer](https://github.com/EtanHey/cmuxlayer)** — Terminal multiplexer MCP. 221 tests, 1,423x socket speedup, native MCP in cmux Swift fork.
+- **45+ skills** with AI-agnostic adapter layer (Claude, Cursor, Gemini, Codex, Kiro), 6 MCP servers, 7 agent profiles
+- **3 singleton daemons** built: BrainBar, VoiceBar MCP, cmux native MCP
 
 Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (email polling, job scraping, briefings).
 
@@ -35,11 +36,11 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 
 | Project | Stack | What it does |
 |---------|-------|--------------|
-| **[Golems](https://github.com/EtanHey/golems)** | TypeScript, Bun, Python | AI agent ecosystem — 16 packages, 5 domain golems, 60 AI-agnostic skills |
-| **[BrainLayer](https://etanheyman.com/projects/brainlayer)** | Python, SQLite, MCP | Persistent memory for AI agents — 295K+ chunks, 7 MCP tools, 119-entity knowledge graph |
-| **[VoiceLayer](https://etanheyman.com/projects/voicelayer)** | TypeScript, Bun, MCP | Voice I/O for Claude Code — TTS + STT, voice cloning, ~300ms |
+| **[Golems](https://github.com/EtanHey/golems)** | TypeScript, Bun, Python | AI agent ecosystem — 16 packages, 5 domain golems, 45+ AI-agnostic skills |
+| **[BrainLayer](https://etanheyman.com/projects/brainlayer)** | Python, SQLite, MCP | Persistent memory for AI agents — 312K+ chunks, 8 MCP tools, BrainBar daemon |
+| **[VoiceLayer](https://etanheyman.com/projects/voicelayer)** | TypeScript, Bun, MCP | Voice I/O MCP daemon — dual-protocol, TTS + STT, voice cloning, ~300ms |
+| **[cmuxlayer](https://github.com/EtanHey/cmuxlayer)** | Swift, TypeScript, MCP | Terminal multiplexer MCP — 221 tests, 1,423x socket speedup |
 | **[Cantaloupe AI](https://trycantaloupe.com)** | Next.js, React Native, Supabase | Automated hiring platform — AI conducts voice interviews 24/7 |
-| **6PM** | Convex, React, Claude Sonnet | AI meeting prep — two-panel UI, real-time orchestrator, BrainLayer memory |
 | **Private** | Next.js, Expo, Supabase | Property platform (stealth) |
 | **[SongScript](https://github.com/EtanHey/songscript)** | TanStack Start, Convex, React 19 | Learn languages through music with line-by-line transliteration |
 
@@ -52,8 +53,8 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 | Repo | License | What |
 |------|---------|------|
 | **[Golems](https://github.com/EtanHey/golems)** | Apache 2.0 | AI agent ecosystem — domain-expert golems as skill packages, autonomous coding loop, semantic memory |
-| **[BrainLayer](https://github.com/EtanHey/brainlayer)** | Apache 2.0 | Persistent memory for AI agents — 328K+ chunks, knowledge graph, 14 MCP tools |
-| **[VoiceLayer](https://github.com/EtanHey/voicelayer)** | Apache 2.0 | Voice I/O for Claude Code — TTS + STT, voice cloning, Hebrew-first dictation |
+| **[BrainLayer](https://github.com/EtanHey/brainlayer)** | Apache 2.0 | Persistent memory for AI agents — 312K+ chunks, 8 MCP tools, 846 Python + 28 Swift tests, BrainBar daemon |
+| **[VoiceLayer](https://github.com/EtanHey/voicelayer)** | Apache 2.0 | Voice I/O MCP daemon — dual-protocol (NDJSON + MCP Content-Length), TTS + STT, voice cloning |
 | **[cmuxlayer](https://github.com/EtanHey/cmuxlayer)** | Apache 2.0 | Terminal multiplexer MCP — multi-agent workspace orchestration |
 | **[SongScript](https://github.com/EtanHey/songscript)** | Apache 2.0 | Language learning through music — synchronized lyrics, word breakdowns |
 | **[etanheyman.com](https://github.com/EtanHey/etanheyman.com)** | Apache 2.0 | Portfolio site (Next.js 15, React 19, Tailwind v4) |
@@ -62,23 +63,11 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 
 | PR | Repo | Status | What |
 |----|------|--------|------|
-| [#1096](https://github.com/pingdotgg/t3code/pull/1096) | pingdotgg/t3code | Merged | fix: tighten node engine range for node:sqlite compat (#206) |
-| [#4749](https://github.com/zed-industries/extensions/pull/4749) | zed-industries/extensions | Merged | Add iTerm2 default theme |
-| [#1562](https://github.com/manaflow-ai/cmux/pull/1562) | manaflow-ai/cmux | Open | fix: avoid main thread starvation from synchronous socket... |
-| [#1522](https://github.com/manaflow-ai/cmux/pull/1522) | manaflow-ai/cmux | Open | fix: create offscreen NSWindow for background workspace P... |
-| [#181](https://github.com/lharries/whatsapp-mcp/pull/181) | lharries/whatsapp-mcp | Open | fix: Unicode-safe chat search + auto-detect business brid... |
-| [#2218](https://github.com/punkpeye/awesome-mcp-servers/pull/2218) | punkpeye/awesome-mcp-servers | Open | Add EtanHey/brainlayer to Knowledge & Memory |
-| [#58](https://github.com/Harzu/iced_term/pull/58) | Harzu/iced_term | Open | feat: make backend module public + async PTY shutdown |
-| [#2217](https://github.com/punkpeye/awesome-mcp-servers/pull/2217) | punkpeye/awesome-mcp-servers | Open | Add VoiceLayer — Voice I/O layer for Claude Code |
-| [#29](https://github.com/T3-Content/quipslop/pull/29) | T3-Content/quipslop | Open | Add 8 community prompts |
-| [#23](https://github.com/T3-Content/quipslop/pull/23) | T3-Content/quipslop | Open | perf: less deterministic AI — add temperature + split rea... |
-| [#14](https://github.com/T3-Content/quipslop/pull/14) | T3-Content/quipslop | Open | feat: twitch chat integration + audience-aware AI |
-
-----|------|--------|------|
-| [#1096](https://github.com/pingdotgg/t3code/pull/1096) | pingdotgg/t3code | Merged | Fix: tighten node engine range for node:sqlite compat |
+| [#206](https://github.com/pingdotgg/t3code/pull/206) | pingdotgg/t3code | Merged | Fix: tighten node engine range for node:sqlite compat |
+| [#181](https://github.com/lharries/whatsapp-mcp/pull/181) | lharries/whatsapp-mcp | Open | Fix: Unicode-safe chat search + auto-detect business bridge DB |
 | [#4749](https://github.com/zed-industries/extensions/pull/4749) | zed-industries/extensions | Merged | Add iTerm2 default theme |
 | [#1522](https://github.com/manaflow-ai/cmux/pull/1522) | manaflow-ai/cmux | Open | Fix: background workspace PTY initialization |
-| [#181](https://github.com/lharries/whatsapp-mcp/pull/181) | lharries/whatsapp-mcp | Open | Fix: Unicode-safe chat search + auto-detect business bridge DB |
+| [#1562](https://github.com/manaflow-ai/cmux/pull/1562) | manaflow-ai/cmux | Open | Fix: thread starvation in MCP server |
 | [#58](https://github.com/Harzu/iced_term/pull/58) | Harzu/iced_term | Open | Feat: public backend module + async PTY shutdown |
 | [#2218](https://github.com/punkpeye/awesome-mcp-servers/pull/2218) | punkpeye/awesome-mcp-servers | Open | Add BrainLayer to Knowledge & Memory |
 | [#2217](https://github.com/punkpeye/awesome-mcp-servers/pull/2217) | punkpeye/awesome-mcp-servers | Open | Add VoiceLayer voice I/O MCP |
