@@ -90,6 +90,18 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 | [#1096](https://github.com/pingdotgg/t3code/pull/1096) | pingdotgg/t3code | Merged | fix: tighten node engine range for node:sqlite compat (#206) |
 | [#4749](https://github.com/zed-industries/extensions/pull/4749) | zed-industries/extensions | Merged | Add iTerm2 default theme |
 | [#1562](https://github.com/manaflow-ai/cmux/pull/1562) | manaflow-ai/cmux | Open | fix: avoid main thread starvation from synchronous socket... |
+| [#1609](https://github.com/manaflow-ai/cmux/pull/1609) | manaflow-ai/cmux | Open | fix: crash on launch from Auto Layout constraint cycle |
+| [#1522](https://github.com/manaflow-ai/cmux/pull/1522) | manaflow-ai/cmux | Open | fix: create offscreen NSWindow for background workspace P... |
+| [#181](https://github.com/lharries/whatsapp-mcp/pull/181) | lharries/whatsapp-mcp | Open | fix: Unicode-safe chat search + auto-detect business brid... |
+| [#58](https://github.com/Harzu/iced_term/pull/58) | Harzu/iced_term | Open | feat: make backend module public + async PTY shutdown |
+| [#29](https://github.com/T3-Content/quipslop/pull/29) | T3-Content/quipslop | Open | Add 8 community prompts |
+| [#23](https://github.com/T3-Content/quipslop/pull/23) | T3-Content/quipslop | Open | perf: less deterministic AI — add temperature + split rea... |
+| [#14](https://github.com/T3-Content/quipslop/pull/14) | T3-Content/quipslop | Open | feat: twitch chat integration + audience-aware AI |
+
+----|------|--------|------|
+| [#1096](https://github.com/pingdotgg/t3code/pull/1096) | pingdotgg/t3code | Merged | fix: tighten node engine range for node:sqlite compat (#206) |
+| [#4749](https://github.com/zed-industries/extensions/pull/4749) | zed-industries/extensions | Merged | Add iTerm2 default theme |
+| [#1562](https://github.com/manaflow-ai/cmux/pull/1562) | manaflow-ai/cmux | Open | fix: avoid main thread starvation from synchronous socket... |
 | [#1522](https://github.com/manaflow-ai/cmux/pull/1522) | manaflow-ai/cmux | Open | fix: create offscreen NSWindow for background workspace P... |
 | [#1609](https://github.com/manaflow-ai/cmux/pull/1609) | manaflow-ai/cmux | Open | fix: crash on launch from Auto Layout constraint cycle |
 | [#181](https://github.com/lharries/whatsapp-mcp/pull/181) | lharries/whatsapp-mcp | Open | fix: Unicode-safe chat search + auto-detect business brid... |
