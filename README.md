@@ -63,6 +63,20 @@ Mac runs the brain (Telegram bot, Night Shift, memory). Railway runs the body (e
 
 | PR | Repo | Status | What |
 |----|------|--------|------|
+| [#1096](https://github.com/pingdotgg/t3code/pull/1096) | pingdotgg/t3code | Merged | fix: tighten node engine range for node:sqlite compat (#206) |
+| [#4749](https://github.com/zed-industries/extensions/pull/4749) | zed-industries/extensions | Merged | Add iTerm2 default theme |
+| [#1522](https://github.com/manaflow-ai/cmux/pull/1522) | manaflow-ai/cmux | Open | fix: create offscreen NSWindow for background workspace P... |
+| [#1609](https://github.com/manaflow-ai/cmux/pull/1609) | manaflow-ai/cmux | Open | fix: crash on launch from Auto Layout constraint cycle |
+| [#5](https://github.com/mottibec/israeli-bank-mcp/pull/5) | mottibec/israeli-bank-mcp | Open | feat: security hardening — ToolAnnotations, env-var creds... |
+| [#1767](https://github.com/nativewind/nativewind/pull/1767) | nativewind/nativewind | Open | fix: filter "unspecified" colorScheme during AppState tra... |
+| [#2217](https://github.com/punkpeye/awesome-mcp-servers/pull/2217) | punkpeye/awesome-mcp-servers | Open | Add VoiceLayer — Voice I/O layer for Claude Code |
+| [#2218](https://github.com/punkpeye/awesome-mcp-servers/pull/2218) | punkpeye/awesome-mcp-servers | Open | Add EtanHey/brainlayer to Knowledge & Memory |
+| [#181](https://github.com/lharries/whatsapp-mcp/pull/181) | lharries/whatsapp-mcp | Open | fix: Unicode-safe chat search + auto-detect business brid... |
+| [#29](https://github.com/T3-Content/quipslop/pull/29) | T3-Content/quipslop | Open | Add 8 community prompts |
+| [#23](https://github.com/T3-Content/quipslop/pull/23) | T3-Content/quipslop | Open | perf: less deterministic AI — add temperature + split rea... |
+| [#14](https://github.com/T3-Content/quipslop/pull/14) | T3-Content/quipslop | Open | feat: twitch chat integration + audience-aware AI |
+
+----|------|--------|------|
 | [#1096](https://github.com/pingdotgg/t3code/pull/1096) | pingdotgg/t3code | Merged | fix: tighten node engine range for node:sqlite compat |
 | [#4749](https://github.com/zed-industries/extensions/pull/4749) | zed-industries/extensions | Merged | Add iTerm2 default theme |
 | [#2218](https://github.com/punkpeye/awesome-mcp-servers/pull/2218) | punkpeye/awesome-mcp-servers | Open | Add BrainLayer to Knowledge & Memory |
