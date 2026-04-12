@@ -9,10 +9,10 @@ jobs:
   update-table:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: Query GitHub API for contributions
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         id: query
         with:
           script: |
@@ -56,14 +56,21 @@ jobs:
             }));
 
             const all = [...merged, ...open];
-            core.setOutput('contributions', JSON.stringify(all));
+            core.setOutput(
+              'contributions_b64',
+              Buffer.from(JSON.stringify(all), 'utf8').toString('base64')
+            );
 
       - name: Update README
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
+        env:
+          CONTRIBUTIONS_B64: ${{ steps.query.outputs.contributions_b64 }}
         with:
           script: |
-            const fs = require('fs');
-            const contributions = JSON.parse('${{ steps.query.outputs.contributions }}');
+            const fs = require('node:fs');
+            const contributions = JSON.parse(
+              Buffer.from(process.env.CONTRIBUTIONS_B64, 'base64').toString('utf8')
+            );
 
             let readme = fs.readFileSync('README.md', 'utf8');
 
